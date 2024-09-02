@@ -42,22 +42,22 @@
 		<control:OperatorButtonControl Grid.Row="4" Grid.Column="3" Value="-" />
 		<control:OperatorButtonControl Grid.Row="5" Grid.Column="3" Value="+" />
 
-		<control:NumberButtonControl Grid.Row="2" Grid.Column="0" Value="7" x:Name="button7" />
-		<control:NumberButtonControl Grid.Row="2" Grid.Column="1" Value="8" x:Name="button8" />
-		<control:NumberButtonControl Grid.Row="2" Grid.Column="2" Value="9" x:Name="button9" />
-		<control:NumberButtonControl Grid.Row="3" Grid.Column="0" Value="4" x:Name="button4" />
-		<control:NumberButtonControl Grid.Row="3" Grid.Column="1" Value="5" x:Name="button5" x:FieldModifier="public" />
-		<control:NumberButtonControl Grid.Row="3" Grid.Column="2" Value="6" x:Name="button6" />
-		<control:NumberButtonControl Grid.Row="4" Grid.Column="0" Value="1" x:Name="button1" />
-		<control:NumberButtonControl Grid.Row="4" Grid.Column="1" Value="2" x:Name="button2" />
-		<control:NumberButtonControl Grid.Row="4" Grid.Column="2" Value="3" x:Name="button3" />
+		<control:NumberButtonControl Grid.Row="2" Grid.Column="0" Value="7" x:Name="button7" RequestedTheme="Dark"/>
+		<control:NumberButtonControl Grid.Row="2" Grid.Column="1" Value="8" x:Name="button8" RequestedTheme="Dark"/>
+		<control:NumberButtonControl Grid.Row="2" Grid.Column="2" Value="9" x:Name="button9" RequestedTheme="Dark"/>
+		<control:NumberButtonControl Grid.Row="3" Grid.Column="0" Value="4" x:Name="button4" RequestedTheme="Dark"/>
+		<control:NumberButtonControl Grid.Row="3" Grid.Column="1" Value="5" x:Name="button5" RequestedTheme="Dark" x:FieldModifier="public" />
+		<control:NumberButtonControl Grid.Row="3" Grid.Column="2" Value="6" x:Name="button6" RequestedTheme="Dark" />
+		<control:NumberButtonControl Grid.Row="4" Grid.Column="0" Value="1" x:Name="button1" RequestedTheme="Dark"/>
+		<control:NumberButtonControl Grid.Row="4" Grid.Column="1" Value="2" x:Name="button2" RequestedTheme="Dark"/>
+		<control:NumberButtonControl Grid.Row="4" Grid.Column="2" Value="3" x:Name="button3" RequestedTheme="Dark"/>
 
-		<control:NumberButtonControl Grid.Row="5" Grid.Column="1" Value="0" />
+		<control:NumberButtonControl Grid.Row="5" Grid.Column="1" Value="0" RequestedTheme="Dark" />
 
-		<Button Style="{StaticResource ButtonBlueStyle}" Grid.Row="5" Grid.Column="2" Click="handleEqualButtonClick">
+		<Button Style="{StaticResource ButtonBlueStyle}" RequestedTheme="Light" Grid.Row="5" Grid.Column="2" Click="handleEqualButtonClick">
 			=
 		</Button>
-		<Button Style="{StaticResource ButtonBlueStyle}" Grid.Row="5" Grid.Column="0" Click="handleClearButtonClick">
+		<Button Style="{StaticResource ButtonBlueStyle}" RequestedTheme="Light" Grid.Row="5" Grid.Column="0" Click="handleClearButtonClick">
 			C
 		</Button>
 	</Grid>
