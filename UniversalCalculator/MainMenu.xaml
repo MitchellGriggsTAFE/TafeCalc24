@@ -20,10 +20,10 @@
 			<TextBlock x:Name="titleTextBlock" Width="950" Text="Universal Calculator" Margin="10" FontSize="24" FontWeight="SemiBold" TextAlignment="Center" />
 
 			<StackPanel HorizontalAlignment="Center">
-				<Button x:Name="mathsCalculatorButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Maths Calculator" Margin="10"/>
-				<Button x:Name="mortgageCalculatorButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Mortgage Calculator" Margin="10"/>
+				<Button x:Name="mathsCalculatorButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Maths Calculator" Margin="10" Click="mathsCalculatorButton_Click"/>
+				<Button x:Name="mortgageCalculatorButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Mortgage Calculator" Margin="10" Click="mortgageCalculatorButton_Click"/>
 				<Button x:Name="currencyConverterButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Currency Converter" Margin="10"/>
-				<Button x:Name="exitButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Exit" Margin="10"/>
+				<Button x:Name="exitButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Exit" Margin="10" Click="exitButton_Click"/>
 			</StackPanel>
 			
 		</StackPanel>
