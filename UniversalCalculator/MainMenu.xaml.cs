@@ -27,24 +27,28 @@ namespace Calculator
 			this.InitializeComponent();
 		}
 
+		// Event handler for Mortgage Calculator Button
 		private void mortgageCalculatorButton_Click(object sender, RoutedEventArgs e)
 		{
 			Frame.Navigate(typeof(MortgageCalculator));
 		}
 
+		// Event handler for Maths Calculator Button
 		private void mathsCalculatorButton_Click(object sender, RoutedEventArgs e)
 		{
 			Frame.Navigate(typeof(MainPage));
 		}
 
-		private void exitButton_Click(object sender, RoutedEventArgs e)
-		{
-			Application.Current.Exit();
-		}
-
+		// Event handler for Currency Converter Button
 		private void currencyConverterButton_Click(object sender, RoutedEventArgs e)
 		{
 			Frame.Navigate(typeof(CurrencyConverter));
+		}
+
+		// Event handler for Exit Button
+		private void exitButton_Click(object sender, RoutedEventArgs e)
+		{
+			Application.Current.Exit();
 		}
 	}
 }
