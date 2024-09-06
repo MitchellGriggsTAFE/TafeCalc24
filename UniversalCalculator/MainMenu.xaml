@@ -8,7 +8,7 @@
     mc:Ignorable="d"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-	<Grid RequestedTheme="Light" Background="PapayaWhip">
+	<Grid RequestedTheme="Light" Background="White">
 
 		<Image Width="125" Height="125" VerticalAlignment="Top"  HorizontalAlignment="Right" Source="/Images/abacus.PNG" />
 
