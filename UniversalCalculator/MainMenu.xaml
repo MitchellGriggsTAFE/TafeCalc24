@@ -23,6 +23,7 @@
 				<Button x:Name="mathsCalculatorButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Maths Calculator" Margin="10" Click="mathsCalculatorButton_Click"/>
 				<Button x:Name="mortgageCalculatorButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Mortgage Calculator" Margin="10" Click="mortgageCalculatorButton_Click"/>
 				<Button x:Name="currencyConverterButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Currency Converter" Margin="10" Click="currencyConverterButton_Click" />
+				<Button x:Name="tripCalculatorButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Trip Calculator" Margin="10" Click="tripCalculatorButton_Click"/>
 				<Button x:Name="exitButton" Height ="50" Width="150" BorderBrush="Black" BorderThickness="1.5" Content="Exit" Margin="10" Click="exitButton_Click"/>
 			</StackPanel>
 			
